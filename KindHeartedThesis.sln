@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KindHeartedThesis", "KindHeartedThesis\KindHeartedThesis.csproj", "{FFF2C321-7040-41FF-AE67-0ADF5607FD89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{15C6C668-1366-4DE5-A601-F00A3F87DB30}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{719AD9C6-464D-42CF-A1AC-BA0FD7588D89}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\KindHeartedThesis-WAWS-dev.json = PublishScripts\Configurations\KindHeartedThesis-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AEA7FBEC-520C-455D-AD3C-85BDEC87BD6A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFF2C321-7040-41FF-AE67-0ADF5607FD89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF2C321-7040-41FF-AE67-0ADF5607FD89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF2C321-7040-41FF-AE67-0ADF5607FD89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF2C321-7040-41FF-AE67-0ADF5607FD89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{719AD9C6-464D-42CF-A1AC-BA0FD7588D89} = {15C6C668-1366-4DE5-A601-F00A3F87DB30}
+	EndGlobalSection
+EndGlobal
